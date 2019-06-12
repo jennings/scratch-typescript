@@ -1,0 +1,18 @@
+{
+  "name": "scratch-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Stephen Jennings",
+  "description": "A scratch project for testing TypeScript in the terminal",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc --rootDir src --outDir dst",
+    "start": "tsc --rootDir src --outDir dst --watch"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-typescript": "^7.3.3",
+    "typescript": "^3.5.1"
+  }
+}
