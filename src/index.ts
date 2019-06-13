@@ -3,3 +3,5 @@ class Messenger {
     console.log(message, ...args);
   }
 }
+
+new Messenger().show("It", "worked!");
